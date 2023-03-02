@@ -4,6 +4,7 @@
     
 }
 main{
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,6 +90,7 @@ label{
     text-align: left;
     font-size: 1.5rem;
     font-weight: 700;
+    color: white;
     /* margin-left:; */
 }
 input{
@@ -110,6 +112,10 @@ input{
 input[type="email" ],[type="number"]{
   margin-left: 74px;
   /* background: red; */
+}
+input:focus{
+    outline: none;
+    border: 2px solid rgba(0, 250, 70, 1);
 }
 div .btn{
     /* margin-top: 1rem; */
