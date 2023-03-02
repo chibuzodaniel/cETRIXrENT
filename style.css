@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 95vw;
+    margin-left: 2rem;
+    /* background-color: rgba(79, 22, 22, 0.05); */
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1; */
+
+}
+.create-account{
+   position: absolute;
+   right: 0;
+   top:2rem;
+   width: 15rem;
+   height: 9rem;
+   font-size: 1.5rem;
+
+}
+h1{
+    padding-bottom: 1rem;
+    /* border: 10px solid red; */
+
+}
+div button{
+    /* padding-top:1rem ; */
+    margin-top: 0.5rem;
+    background-color: rgba(0, 240, 67, 1);
+    border-radius: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    color: white;
+}
+button:hover{
+    background-color: rgba(0, 250, 70, 1);
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    transition: all ease-in-out;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* login css */
+
+/* main .main-container{
+    border: 20px solid red;
+    background-color: blue;
+    width: 100%;
+} */
+.headlogin{
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+    /* background-color: blue; */
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 60vh;
+    /* border: 5px solid red; */
+    /* margin-left: 3rem; */
+    margin: 3rem;
+
+    /* background-color: blue; */
+}
+label{
+    text-transform: capitalize;
+    margin-left: 5rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* margin-left:; */
+}
+input{
+    margin:1rem;
+    margin-left:1rem;
+    border: 0;
+    height: 2rem;
+    margin-left: 2rem;
+    width: 50rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem; 
+    /* border-radius: 1rem; */
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+
+
+}
+
+input[type="email" ],[type="number"]{
+  margin-left: 74px;
+  /* background: red; */
+}
+div .btn{
+    /* margin-top: 1rem; */
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+/* .create-account css */
+
+main .headcreateaccount{
+    margin-top: -2rem;
+
+}
